@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apprendre HTML - Guide Complet</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/css.css" />
+    <link rel="icon" type="image/png" href="./assets/./img/fav.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Guide Complet pour Apprendre HTML</h1>
+      <p>Explorez les bases et les concepts avancés du HTML</p>
+    </header>
+
+    <nav>
+      <a href="#section1">Introduction</a>
+      <a href="#section2">Balises de Base</a>
+      <a href="#section3">Liens</a>
+      <a href="#section4">Images</a>
+      <a href="#section5">Listes</a>
+      <a href="#section6">Tableaux</a>
+      <a href="#section7">Formulaires</a>
+      <a href="#section8">Multimédia</a>
+      <a href="#section9">Éléments Sémantiques</a>
+    </nav>
+
+    <section id="section1">
+      <h2>Introduction</h2>
+      <p>
+        HTML (HyperText Markup Language) est le langage standard utilisé pour
+        créer des pages web. Il permet de structurer le contenu et de définir la
+        mise en forme de la page.
+      </p>
+      <p>
+        Les balises HTML sont des éléments de base qui décrivent la structure et
+        le contenu des pages web. Chaque balise a une signification spécifique
+        et un rôle particulier.
+      </p>
+    </section>
+
+    <section id="section2">
+      <h2>Balises de Base</h2>
+      <p>
+        Les balises de base sont fondamentales en HTML pour structurer le
+        contenu :
+      </p>
+      <ul>
+        <li>
+          <code>&lt;h1&gt; à &lt;h6&gt;</code> : Balises de titre, de
+          <code>&lt;h1&gt;</code> (le plus important) à
+          <code>&lt;h6&gt;</code> (le moins important).
+        </li>
+        <li>
+          <code>&lt;p&gt;</code> : Balise de paragraphe pour le texte courant.
+        </li>
+        <li>
+          <code>&lt;br&gt;</code> : Balise de saut de ligne, utilisée pour
+          insérer un saut de ligne sans paragraphe.
+        </li>
+        <li>
+          <code>&lt;strong&gt;</code> : Balise pour le texte important ou en
+          gras.
+        </li>
+        <li>
+          <code>&lt;em&gt;</code> : Balise pour le texte mis en emphase ou en
+          italique.
+        </li>
+        <li>
+          <code>&lt;div&gt;</code> : Balise de division utilisée pour grouper
+          des éléments pour le style ou le script.
+        </li>
+        <li>
+          <code>&lt;span&gt;</code> : Balise de texte en ligne utilisée pour le
+          style ou les scripts sans ajouter de structure.
+        </li>
+      </ul>
+      <h3>Exemples :</h3>
+      <p>Exemples d'utilisation des balises :</p>
+      <pre><code>
+      &lt;h1&gt;Titre Principal&lt;/h1&gt;
+      &lt;p&gt;Ceci est un paragraphe de texte.&lt;/p&gt;
+      &lt;br&gt;
+      Ce texte sera sur une nouvelle ligne après le saut de ligne.
+      &lt;strong&gt;Texte en gras&lt;/strong&gt;
+      &lt;em&gt;Texte en italique&lt;/em&gt;
+      &lt;div&gt;Contenu divisé pour le style.&lt;/div&gt;
+      &lt;span style="color: red;"&gt;Texte en rouge&lt;/span&gt;
+        </code></pre>
+    </section>
+
+    <section id="section3">
+      <h2>Liens</h2>
+      <p>
+        Les liens permettent de naviguer entre différentes pages web ou de
+        rediriger vers d'autres sites. Voici comment créer un lien :
+      </p>
+      <p>
+        <a href="https://www.example.com"
+          >Cliquez ici pour visiter Example.com</a
+        >
+      </p>
+      <h3>Exemple de code :</h3>
+      <pre><code>&lt;a href="https://www.example.com"&gt;Cliquez ici pour visiter Example.com&lt;/a&gt;</code></pre>
+    </section>
+
+    <section id="section4">
+      <h2>Images</h2>
+      <p>
+        Les images ajoutent du contenu visuel à votre page. Voici comment
+        insérer une image :
+      </p>
+      <p><img src="https://via.placeholder.com/150" alt="Exemple d'image" /></p>
+      <h3>Exemple de code :</h3>
+      <pre><code>&lt;img src="https://via.placeholder.com/150" alt="Exemple d'image"&gt;</code></pre>
+    </section>
+
+    <section id="section5">
+      <h2>Listes</h2>
+      <p>
+        Il existe deux types de listes en HTML : les listes ordonnées et les
+        listes non ordonnées.
+      </p>
+      <h3>Liste Ordonnée</h3>
+      <ol>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+      </ol>
+      <h3>Liste Non Ordonnée</h3>
+      <ul>
+        <li>Élément A</li>
+        <li>Élément B</li>
+        <li>Élément C</li>
+      </ul>
+      <h3>Exemple de code :</h3>
+      <pre><code>
+&lt;ol&gt;
+  &lt;li&gt;Élément 1&lt;/li&gt;
+  &lt;li&gt;Élément 2&lt;/li&gt;
+  &lt;li&gt;Élément 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Élément A&lt;/li&gt;
+  &lt;li&gt;Élément B&lt;/li&gt;
+  &lt;li&gt;Élément C&lt;/li&gt;
+&lt;/ul&gt;
+        </code></pre>
+    </section>
+
+    <section id="section6">
+      <h2>Tableaux</h2>
+      <p>
+        Les tableaux permettent de structurer les données en lignes et en
+        colonnes. Ils sont souvent utilisés pour afficher des données tabulaires
+        de manière organisée.
+      </p>
+      <p>Un tableau HTML se compose des éléments suivants :</p>
+      <ul>
+        <li>
+          <code>&lt;table&gt;</code> : Élément conteneur principal pour le
+          tableau.
+        </li>
+        <li><code>&lt;thead&gt;</code> : Contient les en-têtes de colonnes.</li>
+        <li>
+          <code>&lt;tbody&gt;</code> : Contient le corps du tableau avec les
+          données.
+        </li>
+        <li><code>&lt;tr&gt;</code> : Représente une ligne dans le tableau.</li>
+        <li>
+          <code>&lt;th&gt;</code> : Définit une cellule d'en-tête dans le
+          tableau.
+        </li>
+        <li>
+          <code>&lt;td&gt;</code> : Définit une cellule de données dans le
+          tableau.
+        </li>
+      </ul>
+      <p>Voici un exemple de tableau simple :</p>
+      <table>
+        <caption>
+          Liste des étudiants inscrits
+        </caption>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Âge</th>
+            <th>Ville</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jean</td>
+            <td>30</td>
+            <td>Paris</td>
+          </tr>
+          <tr>
+            <td>Marie</td>
+            <td>25</td>
+            <td>Lyon</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Exemple de code :</h3>
+      <pre><code>
+      &lt;table&gt;
+        &lt;caption&gt;Liste des étudiants inscrits&lt;/caption&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Nom&lt;/th&gt;
+            &lt;th&gt;Âge&lt;/th&gt;
+            &lt;th&gt;Ville&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Jean&lt;/td&gt;
+            &lt;td&gt;30&lt;/td&gt;
+            &lt;td&gt;Paris&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Marie&lt;/td&gt;
+            &lt;td&gt;25&lt;/td&gt;
+            &lt;td&gt;Lyon&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+        </code></pre>
+    </section>
+
+    <section id="section7">
+      <h2>Formulaires</h2>
+      <p>
+        Les formulaires permettent de recueillir des informations auprès des
+        utilisateurs. Voici un exemple de formulaire simple :
+      </p>
+      <form>
+        <div>
+          <label for="name">Nom :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Votre nom complet"
+          />
+        </div>
+        <div>
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="example@example.com"
+          />
+        </div>
+        <div>
+          <label for="message">Message :</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Votre message ici"
+          ></textarea>
+        </div>
+        <div>
+          <label>Genre :</label><br />
+          <input type="radio" id="genre-m" name="genre" value="masculin" />
+          <label for="genre-m">Masculin</label>
+          <input type="radio" id="genre-f" name="genre" value="féminin" />
+          <label for="genre-f">Féminin</label>
+        </div>
+        <div>
+          <label for="country">Pays :</label>
+          <select id="country" name="country">
+            <option value="france">France</option>
+            <option value="canada">Canada</option>
+            <option value="belgique">Belgique</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            S'abonner à notre newsletter
+          </label>
+        </div>
+        <div>
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+      <h3>Exemple de code :</h3>
+      <pre><code>
+      &lt;form&gt;
+        &lt;div&gt;
+          &lt;label for="name"&gt;Nom :&lt;/label&gt;
+          &lt;input type="text" id="name" name="name" required placeholder="Votre nom complet"&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for="email"&gt;Email :&lt;/label&gt;
+          &lt;input type="email" id="email" name="email" required placeholder="example@example.com"&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for="message"&gt;Message :&lt;/label&gt;
+          &lt;textarea id="message" name="message" rows="4" placeholder="Votre message ici"&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label&gt;Genre :&lt;/label&gt;&lt;br /&gt;
+          &lt;input type="radio" id="genre-m" name="genre" value="masculin"&gt;
+          &lt;label for="genre-m"&gt;Masculin&lt;/label&gt;
+          &lt;input type="radio" id="genre-f" name="genre" value="féminin"&gt;
+          &lt;label for="genre-f"&gt;Féminin&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for="country"&gt;Pays :&lt;/label&gt;
+          &lt;select id="country" name="country"&gt;
+            &lt;option value="france"&gt;France&lt;/option&gt;
+            &lt;option value="canada"&gt;Canada&lt;/option&gt;
+            &lt;option value="belgique"&gt;Belgique&lt;/option&gt;
+            &lt;option value="autre"&gt;Autre&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label&gt;
+            &lt;input type="checkbox" id="subscribe" name="subscribe"&gt;
+            S'abonner à notre newsletter
+          &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;button type="submit"&gt;Envoyer&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+        </code></pre>
+    </section>
+
+    <section id="section8">
+      <h2>Multimédia</h2>
+      <p>
+        HTML permet d'intégrer des fichiers multimédias tels que des vidéos et
+        des audios. Voici des exemples :
+      </p>
+      <h3>Vidéo</h3>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la balise vidéo.
+      </video>
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mp3" />
+        Votre navigateur ne supporte pas la balise audio.
+      </audio>
+      <h3>Exemple de code :</h3>
+      <pre><code>
+&lt;video width="320" height="240" controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  Votre navigateur ne supporte pas la balise vidéo.
+&lt;/video&gt;
+
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mp3"&gt;
+  Votre navigateur ne supporte pas la balise audio.
+&lt;/audio&gt;
+        </code></pre>
+    </section>
+
+    <section id="section9">
+      <h2>Éléments Sémantiques</h2>
+      <p>
+        Les éléments sémantiques donnent un sens clair et spécifique au contenu
+        de la page. Voici quelques exemples :
+      </p>
+      <ul>
+        <li><code>&lt;header&gt;</code> : Entête de page ou de section.</li>
+        <li><code>&lt;nav&gt;</code> : Navigation.</li>
+        <li><code>&lt;main&gt;</code> : Contenu principal de la page.</li>
+        <li><code>&lt;footer&gt;</code> : Pied de page.</li>
+        <li>
+          <code>&lt;article&gt;</code> : Contenu autonome pouvant être distribué
+          indépendamment.
+        </li>
+        <li><code>&lt;section&gt;</code> : Section thématique de la page.</li>
+        <li>
+          <code>&lt;aside&gt;</code> : Contenu secondaire ou complémentaire.
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Guide Complet pour Apprendre HTML Créé par
+        <a href="https://azizbenismail.netlify.app/">Aziz Ben Ismail</a>
+      </p>
+    </footer>
+  </body>
+</html>
