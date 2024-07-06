@@ -1,0 +1,312 @@
+
+  /* Classe personnalisée pour le paragraphe */
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+/* Classe pour modifier la couleur du texte */
+.text-color {
+    color: blue;
+  }
+  
+  /* Classe pour modifier la taille de la police */
+  .text-size {
+    font-size: 20px;
+  }
+  
+  /* Classe pour modifier la police de caractère */
+  .font-family {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Classe pour mettre en gras */
+  .bold {
+    font-weight: bold;
+  }
+  
+  /* Classe pour ajouter une bordure */
+  .border {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  /* Classe pour ajouter un fond */
+  .background {
+    background-color: lightyellow;
+  }
+  
+  /* Classe pour centrer le texte */
+  .center-text {
+    text-align: center;
+  }
+  
+  /* Classe pour ajouter un ombre au texte */
+  .text-shadow {
+    text-shadow: 2px 2px 4px #aaa;
+  }
+  
+  /* Classe pour arrondir les coins d'un élément */
+  .rounded-corners {
+    border-radius: 10px;
+  }
+  
+  /* Classe pour ajouter du padding (espace intérieur) */
+  .padding {
+    padding: 20px;
+  }
+  
+  /* Classe pour ajouter du margin (espace extérieur) */
+  .margin {
+    margin: 20px;
+  }
+  /* Change la couleur de fond */
+.background-color {
+    background-color: lightblue;
+  }
+  
+  /* Change la couleur de texte et la couleur de fond */
+  .text-and-background {
+    color: white;
+    background-color: darkblue;
+  }
+  
+  /* Applique un soulignement au texte */
+  .underline {
+    text-decoration: underline;
+  }
+  
+  /* Applique une police en italique */
+  .italic {
+    font-style: italic;
+  }
+  
+  /* Applique une transformation du texte en majuscules */
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  /* Applique une transformation du texte en minuscules */
+  .lowercase {
+    text-transform: lowercase;
+  }
+  
+  /* Applique une animation simple */
+  .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+  }
+  
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+  /* Applique une ombre portée */
+  .box-shadow {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Applique une transparence */
+  .opacity {
+    opacity: 0.5;
+  }
+  
+  /* Ajoute de l'espace entre les lettres */
+  letter-spacing {
+    letter-spacing: 2px;
+  }
+  
+  /* Ajoute de l'espace entre les mots */
+  .word-spacing {
+    word-spacing: 10px;
+  }
+  
+  /* Applique une couleur de bordure et un rayon de bordure */
+  .custom-border {
+    border: 2px dashed green;
+    border-radius: 15px;
+  }
+  
+  /* Crée un effet de survol */
+  .hover-effect:hover {
+    color: red;
+    background-color: yellow;
+  }
+/*---*/
+/* Applique une bordure arrondie avec une ombre */
+.rounded-shadow {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+  }
+  
+  /* Applique un effet de dégradé de fond */
+  .gradient-background {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Ajoute un arrière-plan d'image */
+  .background-image {
+    background-image: url('assets/gif/dev.gif');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+  }
+  
+  /* Ajoute un effet de transformation à l'échelle */
+  .scale-effect:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Ajoute un effet de rotation */
+  .rotate-effect:hover {
+    transform: rotate(10deg);
+    transition: transform 0.2s;
+  }
+  
+  /* Ajoute un effet de transition pour la couleur */
+  .transition-color:hover {
+    color: #ff7e5f;
+    transition: color 0.3s;
+  }
+  
+  /* Crée un conteneur flexible avec flexbox */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Styles pour les éléments flexibles */
+  .flex-item {
+    background-color: #feb47b;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* Styles pour un menu de navigation */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Styles pour les colonnes de mise en page */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /*---*/
+
+  /* Applique une bordure en pointillés */
+.dotted-border {
+    border: 2px dotted #4CAF50;
+    padding: 10px;
+  }
+  
+  /* Applique un dégradé radial */
+  .radial-gradient-background {
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Applique une ombre de texte */
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Applique une animation de rotation continue */
+  rotate-continuous {
+    animation: rotate-animation 2s linear infinite;
+  }
+  
+  @keyframes rotate-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Crée un bouton stylisé */
+  .styled-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  /* Crée un bouton stylisé avec effet de survol */
+  .styled-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Crée un effet de mise en relief */
+  .embossed-text {
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;
+  }
+  
+  /* Crée un conteneur de grille */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  /* Styles pour les éléments de la grille */
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* Styles pour un texte de type code */
+  .code-text {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
